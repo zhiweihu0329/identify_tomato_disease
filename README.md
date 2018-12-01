@@ -1,5 +1,16 @@
 # identify_tomato_disease
 ##### 本代码库是论文《基于注意力残差机制的细粒度番茄病害识别》的实现
-##### models/路径下分别是文章中提出了ARNet模型及其baseline
+##### models/路径下分别是文章中提出了ARNet模型及其baseline，各模型注释如下：
 * attention_resnet.py：ARNet模型
 * inceptionv3.py：InceptionV3模型
+* mobilenetv2.py：MobileNetV2模型
+* resnet34.py：ResNet34模型
+* vgg16.py：VGG16模型
+* xception.py：Xception模型
+##### tools/路径下均为数据预处理以及论文图表绘制代码。注释如下：
+* image_generate.py：
+* plot_confuse_matrix.py：
+* mobilenetv2.py：
+* resnet34.py：
+* vgg16.py：
+* xception.py：
